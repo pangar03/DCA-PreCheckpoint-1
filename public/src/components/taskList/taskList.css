@@ -1,0 +1,21 @@
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2.5rem;
+    background-color: #f4f4f4;
+    border-radius: 40px;
+    border: solid 1px #3a3a3a;
+}
+
+#submit-button {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 0.5rem 0;
+    border-radius: 400px;
+}
+
+#submit-button:hover {
+    background-color: #4a4a4a;
+    cursor: pointer;
+}

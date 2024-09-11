@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.task button {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 0.5rem 4rem;
+    border-radius: 400px;
+    border: none;
+}
+
+.task button:hover {
+    background-color: #539575;
+    cursor: pointer;
+}
+
+.task-completed {
+    background-color: #909090;
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.task-completed button:hover {
+    background-color: #955353;
+    cursor: pointer;
+}
